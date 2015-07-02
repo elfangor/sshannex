@@ -1,0 +1,11 @@
+[package]
+
+name = "sshannex"
+version = "0.0.1"
+authors = [ "Vincent Paredes <vincentparedes@gmail.com>" ]
+
+[dependencies]
+time = "*"
+
+[dependencies.fuse]
+git = "https://github.com/zargony/rust-fuse.git"
